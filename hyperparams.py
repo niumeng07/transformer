@@ -1,17 +1,13 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
-#/usr/bin/python2
-'''
-June 2017 by kyubyong park. 
-kbpark.linguist@gmail.com.
-https://www.github.com/kyubyong/transformer
-'''
+
 class Hyperparams:
     '''Hyperparameters'''
     # data
-    source_train = 'corpora/train.tags.de-en.de'
-    target_train = 'corpora/train.tags.de-en.en'
-    source_test = 'corpora/IWSLT16.TED.tst2014.de-en.de.xml'
-    target_test = 'corpora/IWSLT16.TED.tst2014.de-en.en.xml'
+    source_train = 'corpora/de-en/train.tags.de-en.de'
+    target_train = 'corpora/de-en/train.tags.de-en.en'
+    source_test = 'corpora/de-en/IWSLT16.TED.tst2014.de-en.de.xml'
+    target_test = 'corpora/de-en/IWSLT16.TED.tst2014.de-en.en.xml'
     
     # training
     batch_size = 32 # alias = N
